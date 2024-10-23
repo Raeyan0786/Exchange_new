@@ -1,0 +1,226 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer base{
+  .paragraph {
+    @apply  font-sans text-[1rem]  font-[400] leading-normal ;
+  }
+  .paragraph_one{
+    @apply  font-sans text-[1rem]  font-[600] leading-normal ;
+  }
+  .paragraph_title{
+    @apply  font-sans text-[1.625rem]  font-[600] leading-normal ;
+  }
+  /* .paragraph_one{
+    @apply text-center font-sans text-[1rem] font-[400] leading-normal ;
+  } */
+  .paragraph_two{
+    @apply font-sans text-[0.875rem] font-[400] leading-normal;
+  }
+  .paragraph_re{
+    @apply font-sans leading-normal not-italic ;
+  }
+  
+  
+  .heading {
+    @apply  font-sans text-[2rem] md:text-[3.4375rem] font-[600] leading-normal capitalize;
+  }
+  .heading_one {
+    @apply text-center font-sans text-[1.25rem] font-[500] leading-normal capitalize;
+  }
+  .heading_two {
+    @apply  font-sans text-[1.5rem] md:text-[2.5rem] font-[600] leading-normal capitalize;
+  } 
+  .heading_three {
+    @apply  font-sans text-[1.875rem] font-[500];
+  }
+  .heading_four{
+    @apply font-sans text-[1.25rem] font-[600] leading-normal;
+  }
+  
+  
+  .border_one{
+    @apply rounded-[0.625rem] border-[1px] border-solid border-[#DEDEDE] bg-[#FFF]
+  }
+  .border{
+    @apply border-[1px] border-solid border-[#DEDEDE] bg-[#FFF]
+  }
+  .border_one{
+    @apply rounded-[0.625rem] border-[1px] border-solid border-[#DEDEDE] bg-[#FFF]
+  }
+  .heading_one {
+    @apply text-center font-sans text-[1.25rem] font-medium leading-normal capitalize;
+  }
+  .border_one{
+    @apply rounded-[0.625rem] border-[1px] border-solid border-[#DEDEDE] bg-[#FFF]
+  }
+  }
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.results-wrapper {
+  margin: 1rem 1rem 1rem 0;
+  padding: 0.5rem;
+}
+
+.result-span {
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  padding: 0.5rem 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search .wrapper:first-child svg {
+  border: 4px solid blue !important;
+}
+
+.search .wrapper:first-child input {
+  border: 4px solid red !important;
+}
+
+.search .wrapper:first-child {
+  border: 4px solid orange;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react-autocomplete {
+  visibility: hidden;
+}
+
+.react-autocomplete.ready {
+  visibility: visible;
+}
+
+.dYrfwz{
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  width: 100%;
+}
+
+.dYrfwz > input{
+  border:none;
+  outline: none;
+  padding: 0 0 0 13px;
+}
+
+.jiMOeR {
+  position: relative;
+  height: 46px;
+}
+
+.jiMOeR .wrapper{
+  position: absolute;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background-color: white;
+    width: 100%;
+    color: #212121;
+    font-size: 16px;
+    font-family: Arial;
+    z-index: 0;
+}
+
+.jiMOeR .wrapper:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.jVORrT {
+  flex-shrink: 0;
+  margin: 0 0 0 16px;
+  fill: grey;
+}
+
+
+#price-range-slider {
+  background: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23555' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E") #333;
+  background: rgba(255, 40, 0, 0.5);
+}
+
+#price-range-slider .range-slider__range {
+  background: rgba(255, 40, 0, 1);
+  transition: height .3s;
+}
+
+#price-range-slider .range-slider__thumb {
+  background: rgba(255, 40, 0, 1);
+  transition: transform .3s;
+}
+
+#price-range-slider .range-slider__thumb[data-active] {
+  transform: translate(-50%, -50%) scale(1.25);
+}
+
+#price-range-slider .range-slider__range[data-active] {
+  height: 16px;
+}
+
+.range-slider .range-slider__thumb:focus-visible{
+  box-shadow: 0 0 0 6px rgba(255, 40, 0, 0.2);
+}
+

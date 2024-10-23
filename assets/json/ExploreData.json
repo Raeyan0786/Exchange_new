@@ -1,0 +1,41 @@
+{
+    "exploreData": [
+        {
+            "id": 1,
+            "heading": "Professions",
+            "desc": "Students want to find information about careers in India as well as institutions that offer relevant course/degree programs.",
+            "image": "/Image/Explore1.png"
+        },
+        {
+            "id": 2,
+            "heading": "Courses",
+            "desc": "Students want to find information about careers in India as well as institutions that offer relevant course/degree programs.",
+            "image": "/Image/Explore2.png"
+        },
+        {
+            "id": 3,
+            "heading": "Entrance Exams",
+            "desc": "Students want to find information about careers in India as well as institutions that offer relevant course/degree programs.",
+            "image": "/Image/Explore3.png"
+        },
+        {
+            "id": 4,
+            "heading": "Certification Centre's",
+            "desc": "Students want to find information about careers in India as well as institutions that offer relevant course/degree programs.",
+            "image": "/Image/Explore4.png"
+        },
+        {
+            "id": 5,
+            "heading": "Sports Academy",
+            "desc": "Students want to find information about careers in India as well as institutions that offer relevant course/degree programs.",
+            "image": "/Image/Explore5.png"
+        },
+        {
+            "id": 6,
+            "heading": "Overseas Education",
+            "desc": "Students want to find information about careers in India as well as institutions that offer relevant course/degree programs.",
+            "image": "/Image/Explore6.png"
+        }
+        
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "carousel":[
+        {
+            "id":1,
+            "image":"/Image/CarouselImg1.svg",
+            "text":"Connect With The People Who Can Help"
+        },
+        {
+            "id":2,
+            "image":"/Image/CarouselImg2.svg",
+            "text":"Learn The Skill You Need To Succeed"
+        },
+        {
+            "id":3,
+            "image":"/Image/CarouselImg3.svg",
+            "text":"Find The Right Job That You Like"
+        }
+    ],
+    "faq" : [
+    {
+        "id": 1,
+        "question": "What is Nerdmine? ",
+        "answer": "Nerdmine is an education and career counseling app that offers personalized guidance to help users explore academic and career opportunities. It provides access to professional career counselors and a platform for job seekers to find relevant job opportunities."
+    },
+    {
+        "id": 2,
+        "question": "Who can use the Nerdmine app? ",
+        "answer": "Users must be at least 13 years old and have the legal capacity to enter into a contract to use the platform. By using the app, users represent and warrant that they meet these eligibility requirements. "
+    },
+    {
+        "id": 3,
+        "question": "How do I create a user account on Nerdmine? ",
+        "answer": "To access certain features of the platform, you may need to create a user account. During the registration process, you consent to providing complete and accurate information and maintaining the confidentiality of your account credentials. "
+    },
+    {
+        "id": 4,
+        "question": "What are my responsibilities as a user of the Nerdmine app? ",
+        "answer": "As a user, you are responsible for maintaining the confidentiality of your account credentials and any activities or actions taken under your account. You agree to use the app in compliance with applicable laws and regulations and refrain from using it for any unlawful, fraudulent, or unauthorized purposes. "
+    }
+],
+"audience":[
+    {
+        "id":1,
+        "className":true,
+        "image":"/Image/Audience.png",
+        "background_text":"Students",
+        "heading":"Students",
+        "desc_one":"Students seek information on careers in India and institutions offering relevant courses or degree programs.",
+        "desc_two":"Students preparing for entrance exams want to find coaching classes to help them prepare."
+    },
+    {
+        "id":2,
+        "className":true,
+        "image":"/Image/Audience_one.png",
+        "background_text":"Companies",
+        "heading":"Companies",
+        "desc_one":"Can create a profile to advertise their business and post job opportunities.",
+        "desc_two":"They want to get in front of students and professionals who are looking for an internship and jobs."
+    },
+    {
+        "id":3,
+        "className":false,
+        "image":"/Image/Audience_two.png",
+        "background_text":"institutes",
+        "heading":"institutes",
+        "desc_one":"Looking to get in touch with prospective students. They can share information about their college and its programs with a wider audience.",
+        "desc_two":"Certification centres can promote certification courses that are available for students and professionals. Students could ask questions to clear their doubts."
+    }
+],
+"exploreData": [
+    {
+        "id": 1,
+        "heading": "Professions",
+        "desc": "Students want to find information about careers in India as well as institutions that offer relevant course/degree programs.",
+        "image": "/Image/Explore1.png"
+    },
+    {
+        "id": 2,
+        "heading": "Courses",
+        "desc": "Students want to find information about careers in India as well as institutions that offer relevant course/degree programs.",
+        "image": "/Image/Explore2.png"
+    },
+    {
+        "id": 3,
+        "heading": "Entrance Exams",
+        "desc": "Students want to find information about careers in India as well as institutions that offer relevant course/degree programs.",
+        "image": "/Image/Explore3.png"
+    },
+    {
+        "id": 4,
+        "heading": "Certification Centre's",
+        "desc": "Students want to find information about careers in India as well as institutions that offer relevant course/degree programs.",
+        "image": "/Image/Explore4.png"
+    },
+    {
+        "id": 5,
+        "heading": "Sports Academy",
+        "desc": "Students want to find information about careers in India as well as institutions that offer relevant course/degree programs.",
+        "image": "/Image/Explore5.png"
+    },
+    {
+        "id": 6,
+        "heading": "Overseas Education",
+        "desc": "Students want to find information about careers in India as well as institutions that offer relevant course/degree programs.",
+        "image": "/Image/Explore6.png"
+    }
+],
+"FAQs" : [
+    {
+        "id": 1,
+        "question": "What is Nerdmine? ",
+        "answer": "Nerdmine is an education and career counseling app that offers personalized guidance to help users explore academic and career opportunities. It provides access to professional career counselors and a platform for job seekers to find relevant job opportunities."
+    },
+    {
+        "id": 2,
+        "question": "Who can use the Nerdmine app? ",
+        "answer": "Users must be at least 13 years old and have the legal capacity to enter into a contract to use the platform. By using the app, users represent and warrant that they meet these eligibility requirements. "
+    },
+    {
+        "id": 3,
+        "question": "How do I create a user account on Nerdmine? ",
+        "answer": "To access certain features of the platform, you may need to create a user account. During the registration process, you consent to providing complete and accurate information and maintaining the confidentiality of your account credentials. "
+    },
+    {
+        "id": 4,
+        "question": "What are my responsibilities as a user of the Nerdmine app? ",
+        "answer": "As a user, you are responsible for maintaining the confidentiality of your account credentials and any activities or actions taken under your account. You agree to use the app in compliance with applicable laws and regulations and refrain from using it for any unlawful, fraudulent, or unauthorized purposes. "
+    }
+]
+}
